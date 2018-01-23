@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<title>A web page</title>
+<style>
+.container{
+	width : 700px;
+	padding: 0;
+	margin-top:0;
+	margin-bottom:0;
+}
+h1{
+	padding-top: 20px;
+	background-color:#669900;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 70px;
+	clear:left; 
+}
+
+.rightSide {
+	float : left;
+	height: 504px;
+	width: 199px;
+	overflow:hidden;
+	text-align: center;
+	background-color: lightPink;
+}
+.map{
+	float:Left;
+	height:500px;
+	width: 500px;
+}
+.sprite{
+	position:absolute;
+	top:200px;
+	left: 200px;
+} 
+footer{
+	background-color: #996600;
+	clear: left; 
+	text-align: center;
+	border: 5px solid #996600;
+}
+#btn1, #btn2{
+    margin:5px;
+    padding: 10px;
+	border-radius: 12px;
+	font : Georgia,serif;
+  }
+
+</style>
+</head>
+	<body>
+		<div class="container">
+			<h1>Grand Hawaiian Tour</h1>
+			<div class= "map" id="HawaiiMap">
+				<img src="map.jpg" alt="Hawaii Map">
+			</div>
+			<div class ="rightSide" id="left">
+				<h2>Column 'o buttons</h2>
+				<h4>This is an awesome game!</h4>
+				<button id = "btn1" type="button" onclick="alert('Nothing to display yet')">Click to play</button>
+				<button id = "btn2" type="button" onclick="alert('Nothing to display yet')">Toss in the towel</button>
+			</div>
+			<div class= "sprite" id="user">
+				<img src="sprite.png" alt="sprite ">
+			</div>
+			
+			<footer>Copyright &copy; BC Game Demons</footer>
+			
+		</div>
+	</body>
+		
+</html>
